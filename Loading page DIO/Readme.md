@@ -22,7 +22,7 @@ Esses conceitos foram essenciais para criar uma **interface atraente e profissio
 
 > **🔗 Bootcamp realizado por:** [Digital Innovation One](https://web.dio.me/home) 
 > **🔗 Bootcamp patrocinado por:** [Ri Happy](https://www.rihappy.com.br)  
-> **🎓 Professor(a):** Michele Ombrosio
+> **🎓 Professor(a):** [Michele Ombrosio](https://github.com/micheleambrosio)
 
 ---
 
