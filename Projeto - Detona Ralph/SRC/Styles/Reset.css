@@ -1,0 +1,10 @@
+
+    /* Por padrão, o navegador já aplica alguns estilos predefinidos para páginas da web. Utilizando o seletor "*"(universal), o código CSS abaixo redefine esses padrões do navegador, garantindo que nossa página web tenha o mesmo layout em todos os navegadores (Também definimos uma fonte retro). */
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
