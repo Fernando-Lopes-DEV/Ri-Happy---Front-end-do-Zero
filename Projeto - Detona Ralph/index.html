@@ -20,14 +20,65 @@
 
 </head>
 <body>
-    <h1>Fernando lopes</h1>
 
+    <!-- Container geral criado abaixo que irá conter todos os outros containers -->
+    <div class="container"> 
 
+        <!-- Container do menu  -->
+        <div class="menu">  
 
+            <div class="menu-time">
+                <h2> Time Left</h2>
+                <h2 id="time-left">0</h2>
+            </div>
 
+            <div class="menu-score">
+                <h2>Your Score</h2>
+                <h2 id="score">0</h2>
+            </div>
 
+            <div class="menu-lives">
+                <img src="/SRC/Imagens/player.png" alt="Foto do player">
+                <h2>X3</h2>
+            </div>
 
+        </div>
 
+        <!-- Container do painel -->
+        <div class="painel">
+
+            <!-- Criação dos quadrados -->
+            <div class="painel-row">
+                <div class="square enemy" id="1"></div>
+                <div class="square" id="2"></div>
+                <div class="square" id="3"></div>
+            </div>
+
+            <div class="painel-row">
+                <div class="square" id="4"></div>
+                <div class="square" id="5"></div>
+                <div class="square" id="6"></div>
+            </div>
+
+            <div class="painel-row">
+                <div class="square" id="7"></div>
+                <div class="square" id="8"></div>
+                <div class="square" id="9"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Criação do rodapé da minha pagina -->
+    <footer>
+
+        <p>DEV - Fernando Lopes</p>
+        <div id="logo">
+            <img src="/SRC/Imagens/Logo - Ri Happy - Front-end do Zero.webp" alt="Logo bootcamp Ri Happy">
+        </div>
+        
+    </footer>
 
     <!-- ADICIONANDO JS AO NOSSO HTML (Como ele é lido de cimpa para baixo colocamos sempre ao final do body) -->
     <script defer src="./SRC/Scripts/Engine.js"></script>
