@@ -1,0 +1,9 @@
+/*Esta pagina e utilizada limpar os padrões de estilização que o navegador utiliza nas paginas web por padrão */
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: monospace;
+}
